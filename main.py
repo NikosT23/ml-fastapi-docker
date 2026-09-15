@@ -155,6 +155,6 @@ def predict_species(data: IrisData):
     species_map = {0: "setosa", 1: "versicolor", 2: "virginica"}
     predicted_species = species_map[int(prediction[0])]
     
-    return {"predicted_species": predicted_species}
+    return {"prediction": predicted_species}
 
     
